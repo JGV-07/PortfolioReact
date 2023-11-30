@@ -103,8 +103,8 @@ function App() {
             <a
               href={
                 isSpanishMode
-                  ? "./src/assets/CV-HF.pdf"
-                  : "./src/assets/CV-HF-EN.pdf"
+                  ? "/CV-HF.pdf"
+                  : "/CV-HF-EN.pdf"
               }
               download
               className="btnh btn2 Cv_Head"
@@ -473,8 +473,8 @@ function App() {
                 <a
                   href={
                     isSpanishMode
-                      ? "/src/assets/CV-HF.pdf"
-                      : "/src/assets/CV-HF-EN.pdf"
+                      ? "/CV-HF.pdf"
+                      : "/CV-HF-EN.pdf"
                   }
                   download
                   className="btn btn2"
