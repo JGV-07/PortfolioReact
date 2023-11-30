@@ -107,6 +107,7 @@ function App() {
                   : "/CV-HF-EN.pdf"
               }
               download
+              target="_blank"
               className="btnh btn2 Cv_Head"
             >
               {isSpanishMode ? "Descarga mi CV" : "Download my CV"}
@@ -477,6 +478,7 @@ function App() {
                       : "/CV-HF-EN.pdf"
                   }
                   download
+                  target="_blank"
                   className="btn btn2"
                 >
                   {isSpanishMode ? "Descarga mi CV" : "Download my CV"}
