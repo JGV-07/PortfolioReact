@@ -59,7 +59,7 @@ function App() {
         <div id="header">
           <div className="container">
             <nav>
-              <img src="./src/assets/logo.png" className="logo" alt="" />
+              <img src="/logo.png" className="logo" alt="" />
               <ul className="header-nav">
                 <li>
                   <SpanishMode
@@ -127,7 +127,7 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="about-col-1">
-                <img src="./src/assets/user.jpg" alt="" />
+                <img src="/user.jpg" alt="" />
               </div>
               <div className="about-col-2">
                 <h1 className="sub-title">
@@ -347,7 +347,7 @@ function App() {
               onMouseLeave={() => setIsHovered(false)}
             >
               <div className="work">
-                <img src="./src/assets/work-4.jpg" alt="" />
+                <img src="/work-4.jpg" alt="" />
                 <div className="layer">
                   <h2>Pokedex App</h2>
                   <p>
@@ -364,7 +364,7 @@ function App() {
                 </div>
               </div>
               <div className="work">
-                <img src="./src/assets/work-6.jpg" alt="" />
+                <img src="/work-6.jpg" alt="" />
                 <div className="layer">
                   <h2>
                     {isSpanishMode ? "Rick y Morty App" : "Rick & Morty App"}
@@ -383,7 +383,7 @@ function App() {
                 </div>
               </div>
               <div className="work">
-                <img src="./src/assets/work-7.jpg" alt="" />
+                <img src="/work-7.jpg" alt="" />
                 <div className="layer">
                   <h2>
                     {isSpanishMode ? "Tienda E-commerce" : "E-commerce Shop"}
@@ -402,7 +402,7 @@ function App() {
                 </div>
               </div>
               <div className="work">
-                <img src="./src/assets/work-5.jpg" alt="" />
+                <img src="/work-5.jpg" alt="" />
                 <div className="layer">
                   <h2>{isSpanishMode ? "App del clima" : "Weather App"}</h2>
                   <p>
@@ -419,7 +419,7 @@ function App() {
                 </div>
               </div>
               <div className="work">
-                <img src="./src/assets/work-8.jpg" alt="" />
+                <img src="/work-8.jpg" alt="" />
                 <div className="layer">
                   <h2>{isSpanishMode ? "App de usuarios" : "Users App"}</h2>
                   <p>

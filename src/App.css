@@ -734,7 +734,7 @@ nav .fas {
 }
 
 .light-mode .logo {
-  content: url(/src/assets/logo-black.png);
+  content: url(/logo-black.png);
 }
 
 .light-mode .sub-title,

@@ -4,9 +4,9 @@ const DarkMode = ({ isDarkMode, onClick }) => {
   return (
     <div>
       {isDarkMode ? (
-        <img onClick={onClick} className='sun' src="./src/assets/sun.png" alt="" />
+        <img onClick={onClick} className='sun' src="/sun.png" alt="" />
       ) : (
-        <img onClick={onClick} className='moon' src="./src/assets/moon.png" alt="" />
+        <img onClick={onClick} className='moon' src="/moon.png" alt="" />
       )}
     </div>
   )
