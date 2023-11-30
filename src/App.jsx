@@ -127,7 +127,7 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="about-col-1">
-                <img src="/src/assets/user.jpg" alt="" />
+                <img src="/Users/jgv/Downloads/ACADEMLO/React/Portfolio_React/src/assets/user.jpg" alt="" />
               </div>
               <div className="about-col-2">
                 <h1 className="sub-title">
